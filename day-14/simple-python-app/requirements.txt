@@ -1,1 +1,18 @@
-flask
+# Python dependencies for the simple-python-app
+# Flask web framework for building the application
+flask==2.3.3
+
+# Werkzeug - WSGI utility library (Flask dependency)
+werkzeug==2.3.7
+
+# Gunicorn - Production WSGI server
+gunicorn==21.2.0
+
+# Boto3 - AWS SDK for Python (optional, for AWS integrations)
+boto3==1.28.57
+
+# Pytest - Testing framework
+pytest==7.4.2
+
+# Requests - HTTP library for testing and external calls
+requests==2.31.0
